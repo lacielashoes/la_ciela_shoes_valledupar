@@ -1,55 +1,213 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Ciela Shoes Valledupar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
+    <header>
+        <h1>La Ciela Shoes Valledupar</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="https://wa.me/573022490516?text=Hola,%20estoy%20interesado%20en%20comprar%20un%20zapato">Comprar</a>
+            <a href="https://wa.me/573022490516?text=Hola,%20quiero%20ponerme%20en%20contacto%20con%20ustedes">Contacto</a>
+        </nav>
+    </header>
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0 1rem;
-}
+    <main>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <!-- Aquí irían las imágenes y descripciones de tus zapatos -->
+            <div class="producto">
+                <img src="img/photo_10_2025-06-10_21-25-18.jpg" alt="Zapato 10">
+                <h3>Zapato 10</h3>
+                <p>Descripción del zapato 10.</p>
+            </div>
+            <div class="producto">
+                <img src="img/photo_11_2025-06-10_21-25-18.jpg" alt="Zapato 11">
+                <h3>Zapato 11</h3>
+                <p>Descripción del zapato 11.</p>
+            </div>
+            <div class="producto">
+                <img src="img/photo_12_2025-06-10_21-25-18.jpg" alt="Zapato 12">
+                <h3>Zapato 12</h3>
+                <p>Descripción del zapato 12.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_13_2025-06-10_21-25-18.jpg" alt="Zapato 13">
+                <h3>Zapato 13</h3>
+                <p>Descripción del zapato 13.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_14_2025-06-10_21-25-18.jpg" alt="Zapato 14">
+                <h3>Zapato 14</h3>
+                <p>Descripción del zapato 14.</p>
+            </div>
+            <div class="producto">
+                <img src="img/photo_15_2025-06-10_21-25-18.jpg" alt="Zapato 15">
+                <h3>Zapato 15</h3>
+                <p>Descripción del zapato 15.</p>
+            </div>
+            <div class="producto">
+                <img src="img/photo_16_2025-06-10_21-25-18.jpg" alt="Zapato 16">
+                <h3>Zapato 16</h3>
+                <p>Descripción del zapato 16.</p>
+            </div>
+            <div class="producto">
+                <img src="img/photo_17_2025-06-10_21-25-18.jpg" alt="Zapato 17">
+                <h3>Zapato 17</h3>
+                <p>Descripción del zapato 17.</p>
+            </div>
+            <div class="producto">
+                <img src="img/photo_18_2025-06-10_21-25-18.jpg" alt="Zapato 18">
+                <h3>Zapato 18</h3>
+                <p>Descripción del zapato 18.</p>
+            </div>
+            <div class="producto">
+                <img src="img/photo_19_2025-06-10_21-25-18.jpg" alt="Zapato 19">
+                <h3>Zapato 19</h3>
+                <p>Descripción del zapato 19.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_1_2025-06-10_21-25-18.jpg" alt="Zapato 1">
+                <h3>Zapato 1</h3>
+                <p>Descripción del zapato 1.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_20_2025-06-10_21-25-18.jpg" alt="Zapato 20">
+                <h3>Zapato 20</h3>
+                <p>Descripción del zapato 20.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_21_2025-06-10_21-25-18.jpg" alt="Zapato 21">
+                <h3>Zapato 21</h3>
+                <p>Descripción del zapato 21.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_22_2025-06-10_21-25-18.jpg" alt="Zapato 22">
+                <h3>Zapato 22</h3>
+                <p>Descripción del zapato 22.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_23_2025-06-10_21-25-18.jpg" alt="Zapato 23">
+                <h3>Zapato 23</h3>
+                <p>Descripción del zapato 23.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_24_2025-06-10_21-25-18.jpg" alt="Zapato 24">
+                <h3>Zapato 24</h3>
+                <p>Descripción del zapato 24.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_25_2025-06-10_21-25-18.jpg" alt="Zapato 25">
+                <h3>Zapato 25</h3>
+                <p>Descripción del zapato 25.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_26_2025-06-10_21-25-18.jpg" alt="Zapato 26">
+                <h3>Zapato 26</h3>
+                <p>Descripción del zapato 26.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_27_2025-06-10_21-25-18.jpg" alt="Zapato 27">
+                <h3>Zapato 27</h3>
+                <p>Descripción del zapato 27.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_28_2025-06-10_21-25-18.jpg" alt="Zapato 28">
+                <h3>Zapato 28</h3>
+                <p>Descripción del zapato 28.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_29_2025-06-10_21-25-18.jpg" alt="Zapato 29">
+                <h3>Zapato 29</h3>
+                <p>Descripción del zapato 29.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_2_2025-06-10_21-25-18.jpg" alt="Zapato 2">
+                <h3>Zapato 2</h3>
+                <p>Descripción del zapato 2.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_30_2025-06-10_21-25-18.jpg" alt="Zapato 30">
+                <h3>Zapato 30</h3>
+                <p>Descripción del zapato 30.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_31_2025-06-10_21-25-18.jpg" alt="Zapato 31">
+                <h3>Zapato 31</h3>
+                <p>Descripción del zapato 31.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_32_2025-06-10_21-25-18.jpg" alt="Zapato 32">
+                <h3>Zapato 32</h3>
+                <p>Descripción del zapato 32.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_33_2025-06-10_21-25-18.jpg" alt="Zapato 33">
+                <h3>Zapato 33</h3>
+                <p>Descripción del zapato 33.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_34_2025-06-10_21-25-18.jpg" alt="Zapato 34">
+                <h3>Zapato 34</h3>
+                <p>Descripción del zapato 34.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_35_2025-06-10_21-25-18.jpg" alt="Zapato 35">
+                <h3>Zapato 35</h3>
+                <p>Descripción del zapato 35.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_36_2025-06-10_21-25-18.jpg" alt="Zapato 36">
+                <h3>Zapato 36</h3>
+                <p>Descripción del zapato 36.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_3_2025-06-10_21-25-18.jpg" alt="Zapato 3">
+                <h3>Zapato 3</h3>
+                <p>Descripción del zapato 3.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_4_2025-06-10_21-25-18.jpg" alt="Zapato 4">
+                <h3>Zapato 4</h3>
+                <p>Descripción del zapato 4.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_5_2025-06-10_21-25-18.jpg" alt="Zapato 5">
+                <h3>Zapato 5</h3>
+                <p>Descripción del zapato 5.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_6_2025-06-10_21-25-18.jpg" alt="Zapato 6">
+                <h3>Zapato 6</h3>
+                <p>Descripción del zapato 6.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_7_2025-06-10_21-25-18.jpg" alt="Zapato 7">
+                <h3>Zapato 7</h3>
+                <p>Descripción del zapato 7.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_8_2025-06-10_21-25-18.jpg" alt="Zapato 8">
+                <h3>Zapato 8</h3>
+                <p>Descripción del zapato 8.</p>
+            </div>
+             <div class="producto">
+                <img src="img/photo_9_2025-06-10_21-25-18.jpg" alt="Zapato 9">
+                <h3>Zapato 9</h3>
+                <p>Descripción del zapato 9.</p>
+            </div>
+        </section>
+    </main>
 
-#productos {
-    padding: 2rem;
-    text-align: center;
-}
+    <footer>
+        <p>&copy; 2023 La Ciela Shoes Valledupar</p>
+    </footer>
 
-.productos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
-    margin-top: 2rem;
-}
-
-.producto {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.producto img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+    <script src="js/script.js"></script>
+</body>
+</html>
