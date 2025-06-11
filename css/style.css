@@ -70,6 +70,22 @@ footer {
     color: #666;
 }
 
+/* Estilos para el botón de comprar */
+.comprar-btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-top: 0.5em;
+    background-color: #4CAF50; /* Verde llamativo */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.comprar-btn:hover {
+    background-color: #367c39; /* Verde más oscuro al pasar el mouse */
+}
+
 /* Media query para pantallas más pequeñas (móviles) */
 @media (max-width: 768px) {
     .producto {
