@@ -1,126 +1,72 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9e6eb; /* Rosa Suave */
     color: #333;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     padding: 1em 0;
     text-align: center;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5em 1em;
-    margin: 0 0.5em;
-    border-radius: 5px;
-    background-color: #555;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 main {
     padding: 20px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Estilos para la sección de productos */
 #productos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centra los productos horizontalmente */
+    justify-content: center;
 }
 
 .producto {
-    width: 30%; /* Cada producto ocupa el 30% del ancho en pantallas grandes */
-    margin: 10px;
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .producto img {
-    max-width: 80%; /* Limita el ancho máximo de las imágenes al 80% del contenedor */
+    max-width: 100%;
     height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
-.producto h3 {
-    margin-top: 0.5em;
-}
-
-.producto p {
-    font-size: 0.9em;
-    color: #666;
-}
-
-/* Estilos para el botón de comprar (MEJORADO) */
 .comprar-btn {
     display: inline-block;
-    padding: 10px 20px; /* Aumenta el padding para hacerlo más grande */
-    margin-top: 10px; /* Aumenta el margen superior */
-    background-color: #25D366; /* Verde WhatsApp */
+    padding: 8px 16px;
+    background-color: #007bff;
     color: #fff;
     text-decoration: none;
-    border-radius: 8px; /* Bordes más redondeados */
-    font-weight: bold;
-    font-size: 16px; /* Aumenta el tamaño de la fuente */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra suave */
-    transition: background-color 0.3s ease; /* Agrega una transición suave */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .comprar-btn:hover {
-    background-color: #128C7E; /* Verde WhatsApp más oscuro al pasar el mouse */
+    background-color: #0056b3;
 }
 
-/* Estilos para el logo del vendedor */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #fff;
+    color: #555;
+    border-top: 1px solid #ddd;
+}
+
 .logo-vendedor {
-    max-width: 200px; /* Ajusta el ancho máximo del logo para móviles */
-    height: auto;
-    display: block; /* Para que ocupe todo el ancho disponible */
-    margin: 10px auto; /* Centra el logo horizontalmente */
-}
-
-/* Media query para pantallas de escritorio (más grandes) */
-@media (min-width: 769px) {
-    .logo-vendedor {
-        max-width: 150px; /* Ajusta el ancho máximo del logo para escritorio */
-    }
-}
-
-/* Media query para pantallas más pequeñas (móviles) */
-@media (max-width: 768px) {
-    .producto {
-        width: 45%; /* Cada producto ocupa el 45% del ancho en pantallas pequeñas */
-    }
-}
-
-/* Media query para pantallas aún más pequeñas (móviles muy pequeños) */
-@media (max-width: 480px) {
-    .producto {
-        width: 100%; /* Cada producto ocupa el 100% del ancho en pantallas muy pequeñas */
-    }
-}
-
-/* Media query para pantallas de escritorio (más grandes) */
-@media (min-width: 769px) {
-    .producto img {
-        max-width: 60%; /* Limita aún más el ancho máximo en pantallas grandes */
-    }
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
 }
