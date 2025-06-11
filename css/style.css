@@ -4,6 +4,13 @@ body {
     padding: 0;
     background-color: #f9e6eb; /* Rosa Suave */
     color: #333;
+    display: flex; /* Convierte el body en un contenedor flex */
+    flex-direction: column; /* Acomoda los elementos en columna */
+    min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la ventana */
+}
+
+.wrapper {
+    flex: 1; /* El contenedor principal ocupa todo el espacio disponible */
 }
 
 header {
