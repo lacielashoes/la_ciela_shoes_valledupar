@@ -70,20 +70,23 @@ footer {
     color: #666;
 }
 
-/* Estilos para el botón de comprar */
+/* Estilos para el botón de comprar (MEJORADO) */
 .comprar-btn {
     display: inline-block;
-    padding: 0.5em 1em;
-    margin-top: 0.5em;
-    background-color: #4CAF50; /* Verde llamativo */
+    padding: 10px 20px; /* Aumenta el padding para hacerlo más grande */
+    margin-top: 10px; /* Aumenta el margen superior */
+    background-color: #25D366; /* Verde WhatsApp */
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px; /* Bordes más redondeados */
     font-weight: bold;
+    font-size: 16px; /* Aumenta el tamaño de la fuente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra suave */
+    transition: background-color 0.3s ease; /* Agrega una transición suave */
 }
 
 .comprar-btn:hover {
-    background-color: #367c39; /* Verde más oscuro al pasar el mouse */
+    background-color: #128C7E; /* Verde WhatsApp más oscuro al pasar el mouse */
 }
 
 /* Media query para pantallas más pequeñas (móviles) */
