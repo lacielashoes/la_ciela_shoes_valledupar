@@ -89,6 +89,14 @@ footer {
     background-color: #128C7E; /* Verde WhatsApp más oscuro al pasar el mouse */
 }
 
+/* Estilos para el logo del vendedor */
+.logo-vendedor {
+    max-width: 200px; /* Ajusta el ancho máximo del logo */
+    height: auto;
+    display: block; /* Para que ocupe todo el ancho disponible */
+    margin: 10px auto; /* Centra el logo horizontalmente */
+}
+
 /* Media query para pantallas más pequeñas (móviles) */
 @media (max-width: 768px) {
     .producto {
